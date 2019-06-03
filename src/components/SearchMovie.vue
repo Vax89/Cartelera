@@ -19,7 +19,7 @@
 
   <v-container v-else grid-list-xl>
     <v-layout wrap>
-      <v-flex xs4
+      <v-flex xs
         v-for="(item, index) in movieResponse"
         :key="index"
         mb-2>

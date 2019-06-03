@@ -6,12 +6,13 @@
         to='/'
         tag='span'
         style='cursor: pointer'>
-        Cartelera
+        CARTELERA
+        <!-- <img src="@/assets/movie.png" alt=""> -->
         </router-link>
-        <nav-bar></nav-bar>
+        <!-- <nav-bar></nav-bar> -->
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-flex xs12 sm6 md3>
+      <v-flex xs3 sm6 md1>
         <v-text-field
           label='Movie Name'
           v-model='searchString'

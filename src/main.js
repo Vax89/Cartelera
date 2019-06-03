@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import './plugins/vuetify'
+import './plugins/vuetify'
 import App from './App.vue'
-import { store } from './store'
+import store  from './store'
 import router from './router'
 import axios from 'axios'
 import firebase from 'firebase'
@@ -28,9 +29,9 @@ var firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
-var db = firebase.firestore();
-window.db= db;
-db.settings({
-  timestampsInSnapshots: true
+// var db = firebase.firestore();
+// window.db= db;
+// db.settings({
+//   timestampsInSnapshots: true
 
-});
+// });
