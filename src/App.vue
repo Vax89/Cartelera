@@ -8,6 +8,7 @@
         style='cursor: pointer'>
         Cartelera
         </router-link>
+        <nav-bar></nav-bar>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-flex xs12 sm6 md3>
@@ -33,9 +34,11 @@
 </template>
 
 <script>
+import NavBar from '@/views/NavBar'
 export default {
   name: 'App',
   components: {
+    NavBar
   },
   data () {
     return {

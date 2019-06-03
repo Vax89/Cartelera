@@ -48,6 +48,7 @@
 <script>
 import movieApi from '@/services/MovieApi'
 
+
 export default {
   data () {
     return {
