@@ -8,7 +8,7 @@ import axios from 'axios'
 import firebase from 'firebase'
 
 Vue.config.productionTip = false
-axios.defaults.baseURL = 'http://www.omdbapi.com/?apikey=2372d018&page=1&type=movie&Content-Type=application/json'
+axios.defaults.baseURL = 'https://www.omdbapi.com/?apikey=2372d018&page=1&type=movie&Content-Type=application/json'
 new Vue({
   render: h => h(App),
   store,
